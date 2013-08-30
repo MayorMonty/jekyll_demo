@@ -1,0 +1,48 @@
+---
+layout : post
+title : textile热身
+tags : [ textile, jekyll ]
+category : test
+---
+_emphasized_
+*strongly emphasized*
+
+* An item
+* Another item
+** sub level
+** another sub level
+*** third level
+
+h1(#id). head
+
+#(class) item
+# item 2
+## sub item
+
+#10 start by 10
+# item...
+
+Some text 
+
+#_ continue
+# item 12
+
+{% highlight cpp linenos %}
+#include<iostream>
+using namespace std;
+int main(int argc, char** argv)
+{
+	return 0;
+}
+{% endhighlight %}
+
+a ^2^
+
+i ~0~
+
+|_. col1 |_. col2 |
+| row2 | row2 |
+| row3 | row3 |
+
+!http://commons.wikimedia.org/wiki/Special:Filepath/Wikipedia-logo-en.png(wiki icon)!
+"google home":http://google.com.hk
